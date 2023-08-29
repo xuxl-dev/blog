@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://xlxu-dev.github.io/sitemap.xml
+Sitemap: https://xlxu-dev.github.io/blog/sitemap.xml
