@@ -1,5 +1,7 @@
 import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
+import { registerComponentsPlugin } from "@vuepress/plugin-register-components";
+import path from "path";
 
 export default defineUserConfig({
   base: "/blog/",
@@ -9,7 +11,11 @@ export default defineUserConfig({
   description: "Xlxu Lab",
 
   theme,
-
+  plugins: [
+    registerComponentsPlugin({
+      componentsDir: path.resolve(__dirname, "./components"),
+    }) as any,
+  ],
   // Enable it with pwa
   // shouldPrefetch: false,
 });
