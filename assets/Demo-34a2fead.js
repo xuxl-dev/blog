@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper-c27b6911.js";import{o,c as t,a as s}from"./app-682fc13a.js";const c={},n=s("h1",null,"这是一个测试自定义组件的demo",-1),r=[n];function _(a,d,i,l,m,p){return o(),t("div",null,r)}const h=e(c,[["render",_],["__file","Demo.vue"]]);export{h as default};
